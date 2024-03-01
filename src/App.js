@@ -1,10 +1,15 @@
 import React from 'react'
+import Home from "./Home";
+import About from "./About";
 
 const App = () => {
-  return (
-    <h1> Welcome to Jiit SMS</h1>
+  return( <>
+<Home />
+<About />
+  </>
+  ); 
     
-  )
+  
 }
 
 export default App
